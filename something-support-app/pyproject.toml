@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "something-support-app"
+version = "0.1.0"
+description = ""
+authors = ["Nina Huynh <ninahuynh.business@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

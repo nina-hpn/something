@@ -1,0 +1,19 @@
+# Cassandra db
+services:
+  db:
+    image: cassandra:4.1.6
+    container_name: cassandra
+    ports:
+      - "9042:9042"
+    volumes:
+      - ./cassandra:/var/lib/cassandra
+    env_file:
+      - .env.docker
+    environment:
+      - CASSANDRA_USER=${CASSANDRA_USER}
+      - CASSANDRA_PASSWORD=${CASSANDRA_PASSWORD}
+  app:
+    build: "./something-support-app"
+    container_name: support-app
+    env_file:
+      - .env.docker
