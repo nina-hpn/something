@@ -13,4 +13,6 @@ Therefore, in this small place, I will try to answer those questions
 3. If there are multiple methods of education, what are those?
 4. Who will be the benefitor, suitable for pursuing those ways, and what makes them success in life?
 
+## Open questions to ask people since I am curious
 
+1. How was your study in school? How was it? If you are good in school, what did you did, can you predict what would be there in the exam or test?
